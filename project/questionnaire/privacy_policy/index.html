@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>芸工20周年記念サイト | 事業概要</title>
+<link rel="shortcut icon" href="../../../img/favicon.ico">
+<link rel="stylesheet" type="text/css" href="../../../css/screen.css" media="all">
+<link rel="stylesheet" type="text/css" href="../../../css/child.css" media="all">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script type="text/javascript">//スムーズスクロール
+	$(function(){
+	    $('a[href^=#]').click(function(){ 
+	        var speed = 450;
+	        var href= $(this).attr("href"); 
+	        var target = $(href == "#" || href == "" ? 'html' : href);
+	        var position = target.offset().top;
+	        $("html, body").animate({scrollTop:position}, speed, "swing");
+	        return false;
+	    });
+	});
+</script>
+</head>
+<body>
+	<header class="childHeader">
+		<div id="h_inner">
+			<ul class="gnav clearfix">
+				<li><a href="../../../greeting"><img class="home tr03" src="../../../img/header/nav_1.png"></a></li>
+				<li><a href="../../"><img class="jigyo tr03 active" src="../../../img/header/nav_2.png"></a></li>
+				<li><a href="../../../"><img class="h_logo tr03" src="../../../img/header/hd_logo_mini.png"></a></li>
+				<li><a href="../../../donation"><img class="kihu tr03" src="../../../img/header/nav_3.png"></a></li>
+				<li><a href="../../../contact"><img class="contact tr03" src="../../../img/header/nav_4.png"></a></li>
+			</ul>
+		</div>
+	</header>
+	<h1><img src="../../../img/project/h1.png"></h1>
+	<article class="childMain clearfix">
+		<section class="wrapper">
+			<div class="bg_top"></div>
+			<section class="main clearfix">
+				<section>
+					<h2>プライバシーポリシー</h2>
+					<p class="text">おいあおしあ</p>
+				</section>
+			</section>
+			<div class="bg_bottom"></div>
+			<p class="bread_list">
+				<a href="../../../">HOME</a>
+				<span class="blue">　＞　</span>
+				<a href="../../">事業概要</a>
+				<span class="blue">　＞　</span>
+				<a href="../">進路調査アンケート</a>
+				<span class="blue">　＞　</span>
+				プライバシーポリシー
+			</p>
+		</section>
+		<section class="sideBar">
+			<img class="sb_ribbon" src="../../../img/child_common/sb_ribbon.png">
+			<ul>
+				<li>
+					<a href="../../../project/party"><div class="sb_party"></div></a>
+				</li>
+				<li>
+					<a href="../../../project/publication"><div class="sb_publ"></div></a>
+				</li>
+				<li>
+					<a href="../../../project/questionnaire"><div class="sb_ques active"></div></a>
+				</li>
+			</ul>
+		</section>
+	</article>
+	<footer>
+		<div id="f_inner" class="clearfix">
+			<a href="#"><img class="toTop" src="../../../img/footer/ft_top.png"></a>
+			<div class="f_logo clearfix">
+				<img src="../../../img/footer/ft_logo.png">
+				<p class="copyright">&copy; 2015 名古屋市立大学芸術工学部 20周年記念事業実行委員会</p>
+			</div>
+			<ul class="fnav clearfix">
+				<div class="left">
+					<li><a href="../../../"><img src="../../../img/footer/ft_icon.png">HOME</a></li>
+					<li><a href="../../../greeting"><img src="../../../img/footer/ft_icon.png">ごあいさつ</a></li>
+					<li><a href="../../"><img src="../../../img/footer/ft_icon.png">事業概要</a></li>
+				</div>
+				<div class="right">
+					<li><a href="../../../donation"><img src="../../../img/footer/ft_icon.png">寄付のお願い</a></li>
+					<li><a href="../../../contact"><img src="../../../img/footer/ft_icon.png">お問い合わせ</a></li>
+				</div>
+			</ul>
+			<ul class="link clearfix">
+				<div class="left">
+					<li><a href="http://www.nagoya-cu.ac.jp/sda/1.htm"><img src="../../../img/footer/ft_geiko.png"></a></li>
+					<li><a href="http://www.sda.nagoya-cu.ac.jp/dousoukai/"><img src="../../../img/footer/ft_kenko.png"></a></li>
+				</div>
+				<div class="right">
+					<li><a href="http://www.nagoya-cu.ac.jp/1.htm"><img src="../../../img/footer/ft_meishi.png"></a></li>
+					<li><a href="http://www.nagoya-cu.ac.jp/ncu65-70th/"><img src="../../../img/footer/ft_65th.png"></a></li>
+				</div>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>

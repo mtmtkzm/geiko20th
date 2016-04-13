@@ -1,0 +1,77 @@
+
+
+
+form {
+	margin-top: 30px;
+}
+
+form table tr th{
+	height: 60px;
+	width: 160px;
+}
+
+
+form input , form textarea{
+	margin-left: 15px;
+}
+
+form input[type="text"]{
+	width: 378px;
+	height: 28px;
+	border: 1px solid #ccc;
+}
+form input[type="radio"]{
+	width: 20px;
+	margin-left: 30px;
+}
+form textarea {
+	width: 378px;
+	max-width: 425px;
+	margin-top: 15px;
+	border: 1px solid #ccc;
+}
+
+div.error em {
+	color: red;
+}
+
+form.back, form.send{
+	width: 197px;
+	float: left;
+}
+
+#zip {
+	padding-left: 15px;
+}
+
+#zip input{
+	width: 100px;
+}
+
+
+.confirmButton, .backButton, .sendButton{
+	width: 197px;
+	height: 40px;
+	margin-top: 25px;
+	border: none;
+	background: 0 0 no-repeat;
+}
+
+.confirmButton{
+	margin-left: 175px;
+	background-image: url('../img/child_common/confirmButton.png');
+}
+
+.backButton{
+	background-image: url('../img/child_common/backButton.png');
+	margin-left: 100px;
+}
+
+.sendButton{
+	margin-left: 120px;
+	background-image: url('../img/child_common/sendButton.png');
+}
+
+.backButton:hover, .sendButton:hover, .confirmButton:hover{
+	opacity: 0.8;
+}

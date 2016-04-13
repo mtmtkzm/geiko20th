@@ -1,0 +1,7 @@
+<Files ~ "^\.ht">
+deny from all
+</Files>
+
+# Redirect
+Redirect permanent /20th/contact/ http://geikou.jp/inqury-html/
+

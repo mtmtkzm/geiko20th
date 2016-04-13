@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>芸工20周年記念サイト</title>
+<meta name="viewport" content="width=980">
+<meta name="description" content="学部創設20周年を記念して、これまでを振り返ると同時に、将来への展望を考える交流の機会となるよう、祝賀会（平成27年11月21日）を中心とする記念事業を実施いたします">
+<link rel="stylesheet" type="text/css" href="./css/screen.css" media="all">
+<link rel="shortcut icon" href="./img/favicon.ico">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script type="text/javascript">//スムーズスクロール
+	$(function(){
+	    $('a[href^=#]').click(function(){ 
+	        var speed = 450;
+	        var href= $(this).attr("href"); 
+	        var target = $(href == "#" || href == "" ? 'html' : href);
+	        var position = target.offset().top;
+	        $("html, body").animate({scrollTop:position}, speed, "swing");
+	        return false;
+	    });
+	});
+</script>
+<script type="text/javascript"> //画像のプリロード
+	function preload() {
+	    for(var i = 0; i< arguments.length; i++){
+	        $("<img>").attr("src", arguments[i]);
+	    }
+	}
+	//引数に先読みする画像のパスを指定
+	preload(
+		'./img/top/3_1_hv.png',
+		'./img/top/3_2_hv.png',
+		'./img/top/3_3_hv.png',
+		'./img/top/news_fb_hv.png',
+		'./img/top/news_tw_hv.png'
+	);
+</script>
+</head>
+<body>
+	<header>
+		<div id="h_inner">
+			<ul class="gnav clearfix">
+				<li><a href="./greeting"><img class="home tr03" src="./img/header/nav_1.png"></a></li>
+				<li><a href="./project"><img class="jigyo tr03" src="./img/header/nav_2.png"></a></li>
+				<li><a href=""><img class="h_logo tr03" src="./img/header/hd_logo.png"></a></li>
+				<li><a href="./donation"><img class="kihu tr03" src="./img/header/nav_3.png"></a></li>
+				<li><a href="./contact"><img class="contact tr03" src="./img/header/nav_4.png"></a></li>
+			</ul>
+		</div>
+	</header>
+	<section class="mainVisual">
+		<img src="./img/top/mv.png">
+	</section>
+	<article id="main" class="clearfix">
+		<div id="m_inner">
+			<div class="countDown">
+				<img class="party_date" src="./img/top/mv_party_thx.png">
+				<img class="party_text" src="./img/top/mv_text.png">
+			</div>
+			<a href="./project/party"><div class="party menu tr03"></div></a>
+			<a href="./project/questionnaire"><div class="research menu tr03"></div></a>
+			<a href="./donation"><div class="donate menu tr03"></div></a>
+		</div>
+	</article>
+	<article id="news">
+		<div id="n_inner" class="clearfix">
+			<section class="info">
+				<img src="./img/top/news.png">
+				<table>
+					<!--
+						・日付一桁の場合は0をつける
+						・リンクは貼る？貼らない？
+						・一行に収まってる？
+					 -->
+					<tr>
+						<th>2016/04/02</th>
+						<td><a href="./donation">芸工20th基金のページを更新しました。</a></td>
+					</tr>
+ 					<tr>
+						<th>2016/03/25</th>
+						<td><a href="./project/questionnaire">進路調査アンケートの結果をアップしました。</a></td>
+					</tr>
+ 					<tr>
+						<th>2015/12/30</th>
+						<td><a href="./project/party">記念祝賀会（2015/11/21）のレポートをアップしました。</a></td>
+					</tr>
+					<tr>
+						<th>2015/11/07</th>
+						<td><a href="./project/party/#exhibition">パーティー会場での出展者をアップしました。</a></td>
+					</tr>
+					<tr>
+						<th>2015/11/07</th>
+						<td><a href="./project/party/#will-attend">パーティーの出席予定者一覧をアップしました。</a></td>
+					</tr>
+				</table>
+			</section>
+			<section class="sns">
+				<a href="https://www.facebook.com/geikoudousoukai.kenkoukai" target="_blank"><div class="fb tr03"></div></a>
+				<a href="https://twitter.com/geikoudousoukai" target="_blank"><div class="tw tr03"></div></a>
+				<p>
+					芸術工学部同窓会 萱光会（けんこうかい）のFacebookページやTwitterアカウントで随時事業の案内をしていきますので、この機会に、「いいね」＆「フォロー」宜しくお願い致します。
+				</p>
+			</section>
+		</div>
+	</article>
+	<article id="contents">
+		<div id="c_inner">
+			<ul class="clearfix">
+				<li class="post post2">
+					<a href="http://geikousai-ncu.com/" target="_blank">
+						<img src="./img/top/content_2.png">
+						<p class="post_title">芸工祭2015</p>
+						<p class="post_text">
+							芸工がハタチを迎える今年、同じく大人になる私たちが人々を「shif+」させます
+						</p>
+					</a>
+				</li>
+				<li class="post post3">
+					<a href="http://geikou.jp/geikou-crosstalk" target="_blank">
+						<img src="./img/top/content_3.png">
+						<p class="post_title">芸工クロストーク</p>
+						<p class="post_text">
+							在校生が卒業生・修了生に、仕事や学生時代についてインタビュー
+						</p>
+					</a>
+				</li>
+				<li class="post post1">
+					<a href="http://geikou.jp/geikousai_history" target="_blank">
+						<img src="./img/top/content_1.png">
+						<p class="post_title">芸工祭の歴史</p>
+						<p class="post_text">
+							在校生の一大イベント芸工祭の歴史を振り返ってみましょう！
+						</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</article>
+
+	<footer>
+		<div id="f_inner" class="clearfix">
+			<a href="#"><img class="toTop" src="./img/footer/ft_top.png"></a>
+			<div class="f_logo clearfix">
+				<img src="./img/footer/ft_logo.png">
+				<p class="copyright">&copy; 2015 名古屋市立大学芸術工学部 20周年記念事業実行委員会</p>
+			</div>
+			<ul class="fnav clearfix">
+				<div class="left">
+					<li><a href="./"><img src="./img/footer/ft_icon.png">HOME</a></li>
+					<li><a href="./greeting"><img src="./img/footer/ft_icon.png">ごあいさつ</a></li>
+					<li><a href="./project"><img src="./img/footer/ft_icon.png">事業概要</a></li>
+				</div>
+				<div class="right">
+					<li><a href="./donation"><img src="./img/footer/ft_icon.png">寄付のお願い</a></li>
+					<li><a href="./contact"><img src="./img/footer/ft_icon.png">お問い合わせ</a></li>
+				</div>
+			</ul>
+			<ul class="link clearfix">
+				<div class="left">
+					<li><a href="http://www.nagoya-cu.ac.jp/sda/1.htm"><img src="./img/footer/ft_geiko.png"></a></li>
+					<li><a href="http://www.sda.nagoya-cu.ac.jp/dousoukai/"><img src="./img/footer/ft_kenko.png"></a></li>
+				</div>
+				<div class="right">
+					<li><a href="http://www.nagoya-cu.ac.jp/1.htm"><img src="./img/footer/ft_meishi.png"></a></li>
+					<li><a href="http://www.nagoya-cu.ac.jp/ncu65-70th/"><img src="./img/footer/ft_65th.png"></a></li>
+				</div>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
