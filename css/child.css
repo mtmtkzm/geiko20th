@@ -418,3 +418,38 @@ table.symposium th {
 .company-name-ttl.others:after{
 	border-color: #C8C9CA;
 }
+
+.book-section {
+	font-size: 0;
+}
+
+.book-img {
+	display: inline-block;
+	width: 30%;
+}
+
+.book-text {
+	display: inline-block;
+	width: 65%;
+	margin-left: 5%;
+	vertical-align: top;
+}
+
+.book-pdf-list {
+	margin-top: 30px;
+}
+
+.book-pdf-list li {
+	margin: 5px 0 0;
+}
+
+.book-pdf-list li:before {
+	content: url('../img/project/book/pdf-file.png');
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 8px;
+	margin-left: 2px;
+	width: 18px;
+	height: 18px;
+}
+
