@@ -453,3 +453,50 @@ table.symposium th {
 	height: 18px;
 }
 
+.accounts table {
+	border: 1px solid gray;
+	width: 100%;
+	margin-bottom: 28px;
+}
+
+.accounts table tr {
+	border: 1px solid gray;
+}
+
+.accounts table tr th,
+.accounts table tr td {
+	padding: 2px 10px;
+}
+
+.accounts th {
+	background-color: #ddd;
+	height: 30px;
+}
+
+
+.accounts tr.thead th {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.accounts tr.sum {
+	background-color: #FCFFCA;
+}
+
+.accounts tr > .head {
+	width: 70%;
+	border-right: 1px solid gray;
+}
+
+.accounts tr:not(.thead) > .item {
+	text-align: right;
+}
+
+
+
+
+
+
+
+
