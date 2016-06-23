@@ -493,7 +493,9 @@ table.symposium th {
 	text-align: right;
 }
 
-
+.align-right {
+	text-align: right !important;
+}
 
 
 
